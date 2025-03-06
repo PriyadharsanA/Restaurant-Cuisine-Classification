@@ -1,0 +1,42 @@
+OUTPUT:
+
+
+1.LOGISTIC REGRESSION
+Accuracy Score:  83.18491356731272
+              precision    recall  f1-score   support
+
+           0       1.00      0.00      0.00       321
+           1       0.83      1.00      0.91      1588
+
+    accuracy                           0.83      1909
+   macro avg       0.92      0.50      0.45      1909
+weighted avg       0.86      0.83      0.76      1909
+
+
+
+2.K-NEIGHBORS CLASSFIFER
+Accuracy Score:  80.40859088528025
+              precision    recall  f1-score   support
+
+           0       0.29      0.12      0.17       321
+           1       0.84      0.94      0.89      1588
+
+    accuracy                           0.80      1909
+   macro avg       0.57      0.53      0.53      1909
+weighted avg       0.75      0.80      0.77      1909
+
+
+
+3.RANDOM FOREST
+Accuracy Score:  78.6799371398638
+              precision    recall  f1-score   support
+
+           0       0.28      0.17      0.21       321
+           1       0.84      0.91      0.88      1588
+
+    accuracy                           0.79      1909
+   macro avg       0.56      0.54      0.54      1909
+weighted avg       0.75      0.79      0.76      1909
+
+
+Note: These values aren't the final, the values will fluctuate everytime you run the model, so the values will come within the range(nearly + or - 3) 
